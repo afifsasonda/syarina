@@ -15,7 +15,8 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     // TODO: implement initState
 
-    Timer(Duration(seconds: 3), () => Navigator.pushNamed(context, '/login'),);
+    Timer(Duration(seconds: 4), () => Navigator.pushNamed(context, '/onboarding'),);
+    // cekKondisi();
 
     super.initState();
   }
@@ -37,4 +38,11 @@ class _SplashPageState extends State<SplashPage> {
         ),
     );
   }
+  
+  // cekKondisi() {
+  //   var duration = Duration(seconds: 4);
+  //   return Timer(duration. () {
+
+  //   });
+  // }
 }
